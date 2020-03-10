@@ -1,0 +1,49 @@
+.partners {
+    padding: 75px 0;
+    background-color: $partners-bg-color;
+
+    .container {
+        text-align: center;
+
+        h6 {
+            font-size: 40px;
+            margin: 0 0 50 0;
+        }
+
+        p {
+            margin: 0 0 40px 0;
+        }
+
+        .partners-box {
+            display: flex;
+            flex-wrap: wrap;
+
+
+            .item {
+                width: 25%;
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-between;
+
+                @media (max-width: 900px) {
+                    width: calc(100%/3);
+                }
+
+                @media (max-width) {
+                    width: 50%;
+
+                }
+
+                img {
+                    display: block;
+                    max-width: 100%;
+
+                }
+
+            }
+
+        }
+    }
+}

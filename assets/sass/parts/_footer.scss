@@ -1,0 +1,69 @@
+footer {
+    .top {
+        background-image: url(https://ilike-art.com/wp-content/themes/ila/assets/images/img-footer.jpg);
+        padding: 60px 0;
+
+        .container {
+            display: flex;
+            padding: 0;
+
+
+
+            .left {
+                width: 50%;
+                padding: 0 15px;
+                background-color: transparent;
+
+
+
+                h2 {
+                    font-size: 75px;
+                    font-weight: bolder;
+                    color: $primary-color;
+
+                }
+
+                p {
+                    color: $primary-color;
+                    font-size: 20px;
+
+                    a {
+                        color: $primary-color;
+                        font-size: 20px;
+                        text-decoration: underline;
+
+
+                    }
+                }
+            }
+
+            .right {
+                width: 50%;
+                padding: 0 15px;
+                background-color: transparent;
+
+
+                .contact {
+                    background-color: transparent;
+                    display: flex;
+                  
+
+
+                }
+
+
+            }
+
+            .col {
+                width: 50%;
+                padding: 0 -15;
+                background-color: transparent;
+            }
+        }
+
+
+    }
+
+
+
+}

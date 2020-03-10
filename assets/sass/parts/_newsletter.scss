@@ -1,0 +1,42 @@
+.newsletter {
+    padding: 75px;
+    background-color: #534e4e;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 2px;
+        border-color: black;
+
+
+        .text {
+            font-size: 18px;
+            padding: 0 15px 0 0;
+            color: blanchedalmond;
+
+
+
+        }
+
+        .button {
+            button {
+                white-space: nowrap;
+                border: 0;
+                background-color: $secondary-color;
+                color: $primary-color;
+                padding: 15px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+
+            }
+        }
+    }
+}
+
+.modal {
+    text-align: left;
+    font-family: fantasy;
+    display: none;
+
+}
